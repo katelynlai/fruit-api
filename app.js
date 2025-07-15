@@ -1,6 +1,6 @@
 const express = require('express');
 const fruitsApp = express();
-const fruitsRoutes = require("./routes/fruitsRoutes")
+const fruitsRoutes = require("./routes/fruits")
 const nutritionRoutes = require("./routes/nutritionRoutes")
 
 fruitsApp.get('/', (req, res) => {
